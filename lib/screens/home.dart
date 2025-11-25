@@ -14,18 +14,27 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.all(16.0),
             child: Column(
               children: [
+                // * Profile
                 Profile(
                   name: "Mohammad Zidane Kurnianto",
                   npm: "25067420",
-                  bio: "Sebatas mencintai koding.",
+                  bio: "Tidak hanya sebatas mencintai koding.",
                   totalXp: 1500,
                 ),
+
                 SizedBox(height: 40),
+
+                // * Activity Header
                 Text(
                   "Riwayat Aktivitas",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
                 ),
+
+                SizedBox(height: 20),
+
+                // * Activity list
                 Column(
+                  spacing: 8,
                   children: [
                     ActivityCard(
                       title: "Belajar SQL",
