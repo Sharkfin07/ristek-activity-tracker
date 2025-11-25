@@ -61,6 +61,21 @@ class HomeScreen extends StatelessWidget {
                       date: "2 Desember 2025",
                       xp: 900,
                     ),
+                    ActivityCard(
+                      title: "Apply RISTEK",
+                      date: "3 Februari 2026",
+                      xp: 800,
+                    ),
+                    ActivityCard(
+                      title: "Apa lagi ya",
+                      date: "2 Maret 2026",
+                      xp: 100,
+                    ),
+                    ActivityCard(
+                      title: "MERDEKA",
+                      date: "17 Agustus 2045",
+                      xp: 1708145,
+                    ),
                   ],
                 ),
               ],

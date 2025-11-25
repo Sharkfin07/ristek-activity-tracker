@@ -1,7 +1,7 @@
 /*
  * Dikembangkan oleh Mohammad Zidane Kurnianto (2506584861)
  * Link Repo Github: https://github.com/Sharkfin07/ristek-activity-tracker
- * 
+ ! Belum responsive berdasarkan screen width sih kak (memang gak disuruh kan?)
 */
 
 import 'package:flutter/material.dart';
