@@ -10,11 +10,52 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: ListView(
         children: [
-          Profile(
-            name: "Mohammad Zidane Kurnianto",
-            npm: "25067420",
-            bio: "Sebatas mencintai koding.",
-            totalXp: 1500,
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              children: [
+                Profile(
+                  name: "Mohammad Zidane Kurnianto",
+                  npm: "25067420",
+                  bio: "Sebatas mencintai koding.",
+                  totalXp: 1500,
+                ),
+                SizedBox(height: 40),
+                Text(
+                  "Riwayat Aktivitas",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+                ),
+                Column(
+                  children: [
+                    ActivityCard(
+                      title: "Belajar SQL",
+                      date: "24 November 2025",
+                      xp: 100,
+                    ),
+                    ActivityCard(
+                      title: "Beli Dispatch di Steam",
+                      date: "25 November 2025",
+                      xp: -400,
+                    ),
+                    ActivityCard(
+                      title: "Selesaikan Tugas OC Mobdev",
+                      date: "25 November 2025",
+                      xp: 200,
+                    ),
+                    ActivityCard(
+                      title: "Selesaikan Proyek SBF PTI",
+                      date: "29 November 2025",
+                      xp: 100,
+                    ),
+                    ActivityCard(
+                      title: "Belajar Fortran",
+                      date: "2 Desember 2025",
+                      xp: 900,
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
         ],
       ),

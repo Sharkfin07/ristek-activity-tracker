@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 // User data list with username at 0 and pass at 1
 const List<String> _userData = ['Ristek', '123456'];
+// ! User data masih hardcode ya kak
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
