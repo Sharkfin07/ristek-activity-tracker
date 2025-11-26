@@ -7,6 +7,7 @@
 import 'package:flutter/material.dart';
 import 'package:ristek_activity_tracker/screens/home.dart';
 import 'package:ristek_activity_tracker/screens/sign_in.dart';
+import 'package:ristek_activity_tracker/screens/start.dart';
 import 'package:ristek_activity_tracker/themes/theme.dart';
 
 void main() {
@@ -21,8 +22,9 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'Ristek Activity Tracker',
       theme: AppTheme.themeData,
-      initialRoute: '/sign-in',
+      initialRoute: '/',
       routes: {
+        '/': (context) => const StartScreen(),
         '/sign-in': (context) => const SignInScreen(),
         '/home': (context) => const HomeScreen(),
       },

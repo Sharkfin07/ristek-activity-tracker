@@ -34,7 +34,7 @@ class _SignInScreenState extends State<SignInScreen> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 // * RISTEK Logo
-                Image.asset('assets/icons/ristek-logo.png', width: 100),
+                Image.asset('assets/icons/ristek-logo-white.png', width: 100),
 
                 SizedBox(height: 40),
 
