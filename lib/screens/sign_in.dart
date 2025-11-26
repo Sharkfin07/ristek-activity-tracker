@@ -51,6 +51,9 @@ class _SignInScreenState extends State<SignInScreen> {
                       decoration: InputDecoration(
                         filled: true,
                         fillColor: Colors.white,
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),
                       ),
                     ),
                   ],
@@ -71,6 +74,9 @@ class _SignInScreenState extends State<SignInScreen> {
                       decoration: InputDecoration(
                         filled: true,
                         fillColor: Colors.white,
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),
                       ),
                     ),
                   ],
